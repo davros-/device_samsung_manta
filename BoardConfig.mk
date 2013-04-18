@@ -37,7 +37,7 @@ TARGET_ARCH_VARIANT_CPU := cortex-a15
 COMMON_GLOBAL_CFLAGS += -D__ARM_USE_PLD -D__ARM_CACHE_LINE_SIZE=64
 
 TARGET_KERNEL_SOURCE = kernel/samsung/manta
-TARGET_KERNEL_CONFIG = DEMENTED_manta_defconfig
+TARGET_KERNEL_CONFIG = DroidConcepts_manta_defconfig
 
 #Bluetooth
 BOARD_HAVE_BLUETOOTH := true
